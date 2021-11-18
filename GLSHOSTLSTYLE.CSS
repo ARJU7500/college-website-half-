@@ -1,0 +1,494 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+/* -------------------------------------------------------main pAGE----------------------------------------------------------------------*/
+.page{
+	width:1349px;
+	height:auto;
+	background-size:cover;
+	}
+/* -------------------------------------------------------link part 1----------------------------------------------------------------------*/
+.link1
+{
+	text-align:center;
+	max-height:40px;
+	max-width:1349px;
+	background-color:rgb(0,0,0);
+}
+.link1 ul
+{
+	display:inline-flex;
+	list-style:none;
+	margin-left:650px;
+}
+.link1 ul li
+{
+	max-width:200px;
+	max-height:55px;
+}
+.link1 ul li a
+{
+  text-decoration:none;
+  color:rgb(255,255,255);
+  font-size:15px;
+  line-height:40px;
+  padding:2px;
+  }
+  .link1 ul li:hover
+  {
+	  text-decoration:underline;
+  }
+  .link1 .fa
+{
+	margin-left:10px;
+}
+  .link
+  {
+	  display:none;
+	  text-align:left;
+  }
+  .link1 ul li:hover .link
+  {
+	  display:block;
+	position:absolute;
+	background-color:rgb(0,0,128);
+	border-radius:3px;
+  }
+  .link1 ul li:hover .link ul
+  {
+	  display:block;
+	  width:190px;
+	  height:120px;
+	  margin-left:0px;
+  } 
+  .link1 ul li:hover .link ul li
+  {
+	  width:190px;
+	  height:40px;
+  }
+.link1 ul li:hover .link ul li a 
+{
+ margin-left:15px;
+ font-size:15px;
+} 
+.link1 ul li:hover .link ul li:hover
+{
+	background-color:rgb(255,255,255);
+	text-decoration:none;
+}
+.link1 ul li:hover .link ul li:hover a
+{
+	color:rgb(0,0,0);
+}
+
+/* -------------------------------------------------------link part 1---------------------------------------------------------------------*/
+/* -------------------------------------------------------logopart ----------------------------------------------------------------------*/
+.logo
+{
+	
+    width:1349PX;
+    height:110px;	
+    background-color:rgb(255,255,255);
+}
+.img
+{
+margin-left:100px;
+	margin-top:5px;
+	float:left;
+	
+
+}
+.logo .text h1
+{
+	text-align:center;
+	font-size:35px;
+	color:RGB(0, 0, 128);
+}
+.logo .text h4
+{
+	text-align:center;
+	font-size:30px;
+	color:RGB(0, 0, 128);
+}
+.logo .text p
+{
+	color:RGB(0, 0,0);
+	text-align:center;
+	font-size:20px;
+	margin-top:0px;
+}
+/* ----------------------------------------------------end logo part-------------------------------------------------------------------*/
+/*-----------------------------------------------------link part-----------------------------------------------------------------------*/
+.linkpart{
+	width:1349PX;
+	height:55px;
+	background-color:rgb(39,55,70);
+	text-align:center;
+}
+.linkpart ul
+{
+	display:inline-flex;
+	list-style:none;
+}
+.linkpart ul li
+{
+	width:130px;
+	height:55px;
+}
+
+.linkpart ul li a
+{
+  text-decoration:none;
+  color:rgb(255,255,255);
+  font-size:20px;
+  line-height:55px;
+}
+.linkpart ul li:hover
+{
+	background-color:rgb(0,0,128);
+	border-radius:3px;
+	height:55px;
+	margin-top:0px;
+	
+}
+.linkpart ul li:hover a
+{
+	color:yellow;
+}
+	.linkpart .fa
+{
+	margin-left:10px;
+}
+/*-----------------------------------------------Campus----------------------------------------*/
+.menu1
+{
+   display:none;
+}
+.linkpart ul li:hover .menu1
+{
+	display:block;
+	position:absolute;
+	background-color:rgb(0,0,128);
+	opacity:0.8;
+	border-radius:3px;
+	text-align:left;
+}
+.linkpart ul li:hover .menu1 ul
+{
+	display:block;
+	width:180px;
+	height:110px;
+}
+.linkpart ul li:hover .menu1 ul li
+{
+	width:180px;
+	height:55px;
+}
+.linkpart ul li:hover .menu1 ul li a
+{
+	color:rgb(255,255,255);
+    font-size:20px;
+	margin-left:20px;
+}
+.linkpart ul li:hover .menu1 ul li:hover
+{
+	background-color:rgb(0,0,0);
+	width:100%;
+}
+.linkpart ul li:hover .menu1 ul li:hover a
+{
+color:yellow;	
+}
+.submenu1
+{
+	display:none;
+}
+.submenu:hover .submenu1
+{
+	position:absolute;
+	display:block;
+	background-color:rgb(0,0,128);
+	margin-left:180px;
+	margin-top:-55px;
+	border-radius:3px;
+}
+.submenu:hover .submenu1 ul li a
+{
+ color:white;	
+}
+/*-------------------------------------------Collage-----------------------------------------------------*/
+.menu2
+{
+	display:none;
+}
+.linkpart ul li:hover .menu2
+{
+	display:block;
+	position:absolute;
+	background-color:rgb(0,0,128);
+	opacity:0.8;
+	border-radius:3px;
+	text-align:left;
+}
+.linkpart ul li:hover .menu2 ul
+{
+	display:block;
+	width:250px;
+	height:330px;
+}
+.linkpart ul li:hover .menu2 ul li
+{
+	width:250px;
+	height:55px;	
+}
+.linkpart ul li:hover .menu2 ul li a
+{
+	  color:rgb(255,255,255);
+      font-size:20px;
+      line-height:55px;
+	   font-size:20px;
+	margin-left:20px;
+}
+.linkpart ul li:hover .menu2 ul li:hover
+{
+	background-color:rgb(0,0,0);
+	width:100%;
+}
+.linkpart ul li:hover .menu2 ul li:hover a
+{
+	color:yellow;
+}
+/*----------------------------------------------------------------acadmics-------------------------------------------------*/
+.menu3
+{
+	display:none;
+}
+.linkpart ul li:hover .menu3
+{
+	display:block;
+	position:absolute;
+	background-color:rgb(0,0,128);
+	opacity:0.8;
+    border-radius:3px;
+	text-align:left;
+}
+.linkpart ul li:hover .menu3 ul
+{
+	display:block;
+	width:350px;
+	height:275px;
+}
+.linkpart ul li:hover .menu3 ul li
+{
+	width:350px;
+	height:55px;
+}
+.linkpart ul li:hover .menu3 ul li a
+{
+	color:rgb(255,255,255);
+    font-size:20px;
+    line-height:55px;
+	 font-size:20px;
+	margin-left:20px;
+}
+.linkpart ul li:hover .menu3 ul li:hover
+{
+    background-color:rgb(0,0,0);
+	width:100%;	
+}
+.linkpart ul li:hover .menu3 ul li:hover a
+{
+	color:yellow;
+}
+
+/*---------------------------------------end img part---------------------------------------------------*/
+.pro
+{
+	width:1350px;
+	height:300px;
+	border-style:groove;
+	margin-top:10px;
+}
+.wodn
+{
+	width:212px;
+    height:200px;
+	border-style:groove;
+	margin-top:10px;
+	margin-left:10px;
+	float: left;
+}
+.data
+{
+	margin-top: 50px;
+    margin: 15px;
+    padding: 15px;
+}
+/*---------------------------------IMGLINK START----------------------------------------------*/
+.img-link
+{
+	width:1200px;
+	height:300px;
+	margin:auto;
+	margin-top:40px;
+	background-color:rgb(0, 0, 51  );
+	display:flex;
+	border-radius:4% 4% 0% 0% / 15% 15% 0% 0%;
+}
+
+.pic1
+{
+	width:250px;
+	height:150px;
+    margin-left:40px;
+	margin-top:70px;
+}
+.pic2
+{
+	width:250px;
+	height:150px;
+	margin-left:40px;
+	margin-top:70px;
+}
+.pic3
+{
+	width:250px;
+	height:150px;
+    margin-left:40px;
+	margin-top:70px;
+}
+.pic4
+{
+	width:250px;
+	height:150px;
+	 margin-left:40px;
+	 margin-top:70px;
+}
+
+.endpart
+{
+	width:1350px;
+	height:400px;
+	display:inline-flex;
+	background-color:rgb(1, 1, 55);
+	border-radius:;
+}
+/*--------------------------------------------------------------G.P.Dwarahat--------------------------------------------*/
+.ed1
+{
+	height:325px;
+	width:325px;
+	margin-top:40px;
+	margin-left:70px;
+}
+.ed1 .fa
+{
+	margin-left:5px;
+	color:rgb(255,255,255);
+}
+.ed1 ul li 
+{
+	list-style:none;
+	margin-left:20px;
+	margin-top:3px;
+	color:rgb(255,255,255);
+}
+.icon
+{
+	margin-top:30px;
+}
+h1
+{
+margin-left:20px;
+color:skyblue;
+}
+/*-------------------------------------Access-----------------------------------------------------*/
+.ed2
+{
+    height:325px;
+	width:200px;
+	margin-top:40px;
+}
+.elink
+{
+	margin-top:30px;
+	margin-left:30px;
+}
+.elink li
+{
+	list-style:none;
+	margin-top:4px;
+}
+.elink li a
+{
+	text-decoration:none;
+	color:rgb(255,255,255);
+	font-size:20px;
+}
+.elink li a:hover
+{
+	color:yellow;
+}
+/*---------------------------------------------------------Follow---------------------------------------------------------*/
+.ed3
+{
+	height:325px;
+	width:180px;
+	margin-top:40px;
+}
+.elink2
+{
+	margin-top:30px;
+}
+.elink2 .fa
+{
+	color:rgb(255,255,255);
+}
+.elink2 li
+{
+	list-style:none;
+    text-align:center;
+	margin-top:7px;
+}
+.elink2 li a i
+{
+	transition:all 0.3s linear;
+}
+.elink2 li a:hover i
+{
+	transform:scale(1.4);
+}
+.elink2 li:hover .fa
+{
+	color:;
+}/*--------------------------------------------------------------Map--------------------------------------------------------*/
+.ed4
+{
+	height:325px;
+	width:500px;
+	margin-top:40px;
+}
+h1
+{
+	margin-left:40px;
+}
+.map
+{
+	margin-top:30px;
+	margin-left:10px;
+}
+.footer
+{    
+	max-width:1350px;
+	height:40px;
+	background-color:rgb(0, 0, 51  );
+}
+p{
+	text-align:center;
+	color: white;
+	line-height: 40px;
+}
+
+/*------------------------------------------------------------------------------- END THE PAGE-----------------------------------------*/
